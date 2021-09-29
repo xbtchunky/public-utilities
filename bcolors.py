@@ -1,5 +1,5 @@
 def wrap(s):
-	return '\033[' + s + '95m'
+	return '\033[' + s + 'm'
 
 class bcolors:
 	HEADER = '\033[95m'
